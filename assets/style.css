@@ -1,1 +1,133 @@
 /* Copy your CSS code from CodePen below this point */
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+.navigation{
+  padding: 1em;
+  margin: 0;
+  display: flex;
+  background: #800000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+ }
+.nav-item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #e8be82;
+  flex-direction: row;
+  flex-grow: 1;
+  list-style: none;
+  
+}
+
+header{
+  font-family: 'Dancing Script';
+  font-size: 2em;
+  display: flex;
+  color: #fff5ee;
+  background-image: url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+  text-align: center;
+  flex-direction: column;
+}
+
+h2{
+  font-family: 'Lobster';
+  font-size: 2em;
+  color: #800000;
+}
+
+h3{
+  font-family: 'Bitter';
+  font-size: 1em;
+  color:#556b2f
+}
+
+h4{
+  font-family: 'Bitter';
+  font-size: 1em;
+  color:#556b2f
+}
+  
+p{
+  font-family: 'Lora';
+  color: #800000;
+}
+
+
+.about{
+  Display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px 60px;
+  background-color:#fff5ee;
+}
+
+.nachos{
+  float: right;
+  margin: 1em;
+  width: 50%
+}
+  
+.menu{
+  text-align: center;
+  background-color: #fff5ee;
+  padding: 1em;
+  width: 100%;
+  Height: 750px;
+}
+
+.wraps{
+  float: left;
+  text-align: center;
+  background-color: #fff5ee;
+  flex-direction: column;
+  width: 50%;
+}
+
+.sides{
+  display: flex; 
+  float: right;
+  text-align: center;
+  background-color:#fff5ee;
+  flex-direction: column;
+  width: 50%;
+  align-text: center;
+}
+
+.favorites{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 2em;
+  background: #800000;
+}
+
+.favorites h2{
+  color: #fff5ee;
+}
+
+.favorites p{
+  color: #fff5ee;
+}
+
+.foodImages{
+  display: flex;
+  Justify-content: space-around;
+  flex-wrap: wrap;
+  background: #800000;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  Height: 300px;
+} 
+
+
+.socials{
+  text-align: center;
+  flex-direction: row;
+  gap: 1em;
+}
